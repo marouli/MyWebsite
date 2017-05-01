@@ -1,0 +1,102 @@
+html, body  {  
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+
+#left-container, #right-container {
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 0;
+    background-color: #1D1D1D;
+}
+
+
+header img.round_figure {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 6em;
+}
+
+
+header h1.nickName {
+    color: #fff;   
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em; 
+    letter-spacing: 1px; 
+    margin: 0;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+
+nav #menu {
+    display: block;
+    padding: 0;
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    list-style-type: none;
+}
+
+
+nav li {
+    text-align: center;
+    padding: 0.8em 0;
+    margin-bottom: 15%;
+}
+
+
+nav li.about {
+    background-color: #7E2020; 
+}
+
+nav li.portfolio {
+    background-color: #9E2828;
+}
+
+nav li.contact {
+    background-color: #DD3838;
+} 
+
+
+ul li a {
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em; 
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/* work on this a bit more. want is to show when activated.*/
+ul li a:hover {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+
+img.topRightSpace {
+    height: 100%;
+    max-height: 100%;
+    float: right;
+}
+
+
+@media all and (max-width: 960px) and (min-width: 481px)  {
+    img.topRightSpace {
+        height: 60%;
+    }
+    nav #menu {
+        width: 60%;
+    }
+}
+
+
+
+
+

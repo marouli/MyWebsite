@@ -1,0 +1,50 @@
+#left-container, #right-container {
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 0;
+}
+
+
+#left-container {
+    background-color: #1D1D1D;
+}
+
+
+#right-container {
+    background-color: #fff;
+}
+
+
+article {
+    background-color: #fff;
+    float: left;
+    width: 80%;
+    padding: 6em;
+    padding-top: 8em;
+}
+
+
+.aboutHeader {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+
+
+article section.myStory {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+
+@media all and (max-width: 960px) and (min-width: 481px)  {
+    #left-container, #right-container {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+
+

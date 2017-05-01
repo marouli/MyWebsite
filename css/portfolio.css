@@ -1,0 +1,79 @@
+/* I am using this to make the left and right containers fluid */
+#main-container {
+    float: left;
+    background-color: #1D1D1D;
+}
+
+
+#left-container, #right-container {
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#left-container {
+    background-color: #1D1D1D;
+    width: 30%;
+}
+
+
+#right-container {
+    max-height: 100%;
+    background-color: #393939;
+    width: 70%;
+}
+
+
+.grid-row {
+    height: 100%;
+    width: 100%;
+/* This is a trick to make sure that the row contains the children, 
+in spite of them being floated. 
+(This is an alternative to the .clearer trick that sometimes work, but it has gotchas.) */
+    overflow: hidden;
+}
+
+
+.grid-col-4 {
+    box-sizing: border-box;  
+    float: left;
+    padding: 1%;
+    width: 25%;
+    min-width: 280px;
+    /*background-size: 100% auto;*/
+}
+
+
+.portfolio_image {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box
+
+    /* tried to do it with background image in div but doesn't work without content. Maybe will try it again.
+    background-image: url(../images/example_image01.jpg);
+    background-size: contain;
+    background-position: center;*/
+}
+
+
+nav #menu {
+    width: 50%;
+}
+
+
+.clearer {
+    clear: both;
+    line-height: 0;
+}
+
+
+@media all and (max-width: 768px) {
+    .grid-col-4 {
+        width: 100%;
+    }
+
+    nav #menu {
+        width: 60%;
+    }
+}
