@@ -68,12 +68,39 @@ nav #menu {
 }
 
 
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
     .grid-col-4 {
         width: 100%;
     }
 
     nav #menu {
         width: 60%;
+    }
+
+    
+    #left-container, #right-container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    #left-container {
+        height: auto;
+    }
+    
+
+    nav ul li {
+        display: inline;
+        float: left;
+        width: 30%;
+        margin-right: 2%;
+        list-style-type: none;
+    }
+}
+
+
+@media (max-width: 960px) {
+    article section.myStory {
+        padding-right: 10%;
     }
 }
