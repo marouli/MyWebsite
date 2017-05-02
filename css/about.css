@@ -1,6 +1,5 @@
 #left-container, #right-container {
     height: 100%;
-    width: 50%;
     float: left;
     padding: 0;
 }
@@ -8,16 +7,25 @@
 
 #left-container {
     background-color: #1D1D1D;
+    width: 30%;
 }
 
 
 #right-container {
-    background-color: #fff;
+    background-image: url('../images/grunge_texture.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 70%;
+}
+
+
+nav #menu {
+    width: 50%;
 }
 
 
 article {
-    background-color: #fff;
+    /*background: rgba(76, 175, 80, 0.3);*/
     float: left;
     width: 80%;
     padding: 6em;
