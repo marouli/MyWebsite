@@ -70,3 +70,48 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #9E2828;
 }
+
+
+@media all and (max-width: 768px) {
+    nav #menu {
+        width: 60%;
+    }
+
+
+    #left-container, #right-container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    #left-container {
+        height: auto;
+    }
+
+
+    #form-container {
+        margin-left: 5%;
+    }
+
+
+    nav ul li {
+        display: inline;
+        float: left;
+        width: 30%;
+        margin-right: 2%;
+        list-style-type: none;
+    }
+}
+
+
+@media all and (max-width: 1640px) {
+    img.topRightSpace {
+        display: none;
+    }
+
+
+    #form-container {
+        margin-top: 10%;
+        width: 90%;
+    }
+}
