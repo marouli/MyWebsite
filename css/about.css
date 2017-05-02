@@ -39,7 +39,7 @@ article section.myStory {
 }
 
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     #left-container, #right-container {
         width: 100%;
         overflow: hidden;
