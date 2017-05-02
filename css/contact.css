@@ -56,6 +56,11 @@ input[type=text], select, textarea {
 }
 
 
+textarea {
+    height: 100px;
+}
+
+
 input[type=submit] {
     background-color: #DD3838;
     color: white;

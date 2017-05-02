@@ -48,6 +48,15 @@ nav li {
     text-align: center;
     padding: 0.8em 0;
     margin-bottom: 15%;
+    border-radius: 2px;
+    animation-name: nav_animated;
+    animation-duration: 3s;
+}
+
+
+@keyframes nav_animated {
+    from {background-color: #DD3838;}
+    to {background-color: #7E2020;}
 }
 
 
@@ -64,6 +73,12 @@ nav li.contact {
 } 
 
 
+nav li:hover {
+    background-color: #1D1D1D;
+    font-size: 1.2em;
+}
+
+
 ul li a {
     color: #fff;
     font-family: 'Amatic SC', cursive;
@@ -71,12 +86,6 @@ ul li a {
     font-weight: bold;
     letter-spacing: 1px;
     text-decoration: none;
-}
-
-/* work on this a bit more. want is to show when activated.*/
-ul li a:hover {
-    color: #fff;
-    font-size: 2.5em;
 }
 
 
