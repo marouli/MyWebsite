@@ -27,7 +27,7 @@ nav #menu {
     background-color: #393939;
     padding: 4%;
     padding-top: 1%;
-    margin-top: 13%;
+    margin-top: 10%;
     width: 60%;
     float: left;
     font-family: 'Amatic SC', cursive;
@@ -116,7 +116,7 @@ input[type=submit]:hover {
 
 
     #form-container {
-        margin-top: 10%;
+        margin-top: 7%;
         width: 90%;
     }
 }

@@ -50,13 +50,13 @@ nav li {
     margin-bottom: 15%;
     border-radius: 2px;
     animation-name: nav_animated;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 
 @keyframes nav_animated {
     from {background-color: #DD3838;}
-    to {background-color: #7E2020;}
+    to {background-color: #1D1D1D;}
 }
 
 
