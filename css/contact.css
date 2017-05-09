@@ -61,7 +61,7 @@ textarea {
 }
 
 
-input[type=submit] {
+button[type=submit] {
     background-color: #DD3838;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
@@ -72,7 +72,7 @@ input[type=submit] {
 }
 
 
-input[type=submit]:hover {
+button[type=submit]:hover {
     background-color: #9E2828;
 }
 
