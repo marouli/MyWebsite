@@ -1,110 +1,98 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
-
 
 /* I am using this to make the left and right containers fluid */
 #main-container {
-    float: left;
-    background-color: #1D1D1D;
-    height: 100%;
-    width: 100%;
+  float: left;
+  background-color: #1d1d1d;
+  height: 100%;
+  width: 100%;
 }
 
-
-#left-container, #right-container {
-    float: left;
-    padding: 0;
-    height: 100%;
-    box-sizing: border-box;
+#left-container,
+#right-container {
+  float: left;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
 }
-
 
 #left-container {
-    background-color: #1D1D1D;
-    width: 30%;
+  background-color: #1d1d1d;
+  width: 30%;
 }
 
 #right-container {
-    background-color: #393939;
-    width: 70%;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  background-color: #393939;
+  width: 70%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: scroll;
 }
-
 
 #flex-container {
-    width: 100%;
-    height: 100%;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 
 .flex-item {
-    box-sizing: border-box; 
-    flex: 1 0 20em;
-    margin: 15px;
-    margin-left: 17px;
+  box-sizing: border-box;
+  flex: 1 0 20em;
+  margin: 15px;
+  margin-left: 17px;
 }
 
-
 .portfolio_image {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 
-    /* tried to do it with background image in div but doesn't work without content. Maybe will try it again.
+  /* tried to do it with background image in div but doesn't work without content. Maybe will try it again.
     background-image: url(../images/example_image01.jpg);
     background-size: contain;
     background-position: center;*/
 }
 
-
 nav #menu {
-    width: 50%;
+  width: 50%;
 }
-
 
 .clearer {
-    clear: both;
-    line-height: 0;
+  clear: both;
+  line-height: 0;
 }
-
 
 @media all and (max-width: 768px) {
-    .grid-col-4 {
-        width: 100%;
-    }
+  .grid-col-4 {
+    width: 100%;
+  }
 
-    nav #menu {
-        width: 60%;
-    }
+  nav #menu {
+    width: 60%;
+  }
 
+  #left-container,
+  #right-container {
+    width: 100%;
+    overflow: hidden;
+  }
 
-    #left-container, #right-container {
-        width: 100%;
-        overflow: hidden;
-    }
+  #left-container {
+    height: auto;
+  }
 
-
-    #left-container {
-        height: auto;
-    }
-    
-
-    nav ul li {
-        display: inline;
-        float: left;
-        width: 30%;
-        margin-right: 2%;
-        list-style-type: none;
-    }
+  nav ul li {
+    display: inline;
+    margin-right: 2%;
+    list-style-type: none;
+  }
 }
-
